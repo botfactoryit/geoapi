@@ -30,7 +30,7 @@ const tile38Url = 'http://localhost:9851';
 async.eachOfSeries(coordinates, (item, index, callback) => {
 	let { istat, lat, lon } = item;
 	
-	let command = `SET geonames ${istat} POINT ${lat} ${lon}`;
+	let command = `SET points ${istat} POINT ${lat} ${lon}`;
 	
 	console.log(`Importing ${istat} => ${index}/${coordinates.length}`);
 	

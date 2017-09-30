@@ -17,7 +17,7 @@ async.eachOfSeries(features, (item, index, callback) => {
 	
 	let geometry = JSON.stringify(item['geometry']);
 	
-	let command = `SET istat ${istat} OBJECT ${geometry}`;
+	let command = `SET polygons ${istat} OBJECT ${geometry}`;
 	
 	console.log(`Importing ${istat} => ${index}/${features.length}`);
 	

@@ -1,6 +1,12 @@
 {
 	"tile38": {
-		"url": ""
+		"url": "http://localhost:9851",
+		"pointsCollectionName": "points",
+		"polygonsCollectionName": "polygons"
+	},
+	"mongodb": {
+		"connectionString": "",
+		"collectionName": "comuni"
 	},
 	"server": {
 		"port": 8090
