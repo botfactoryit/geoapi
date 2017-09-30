@@ -25,6 +25,7 @@
     "needle": "^2.0.1"
   },
   "devDependencies": {
+    "async": "^2.5.0",
     "eslint": "^4.7.2"
   }
 }
